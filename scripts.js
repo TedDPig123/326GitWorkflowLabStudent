@@ -49,4 +49,11 @@ function runReciprocal() {
 
 // TODO: Implement run your functions here
 
+function calculateSquareRoot(value) {
+    return Math.sqrt(value);
+}
+
+function calculateSquare(value) {
+    return Math.pow(value, 2);
+}
 
