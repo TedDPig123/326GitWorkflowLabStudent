@@ -70,6 +70,15 @@
     <button onclick="appendToDisplay('.')">.</button>
 
      <!-- TODO: Add extra function operations -->
+    <script>
+        document.onkeydown = function(event){
+            let key = event.key;
+            let display = document.getElementById('display');
+            if(Number(key)){
+                appendToDisplay(key);
+            }
+        }
+      </script>
 </div>
 
 <script src="calculator.js"></script>
